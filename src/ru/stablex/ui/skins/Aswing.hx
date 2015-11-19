@@ -55,11 +55,11 @@ class Aswing extends Skin {
     public var ty : Float = 0;
 
     // Base color used by this widget (other colors are generated from it)
-    public var color: Int = 0x009FEC;
+    public var color: UInt = 0x009FEC;
 
-    private var colors : Array<Int>;
-    private var outerBorderColor : Array<Int>;
-    private var innerBorderColor : Array<Int>;
+    private var colors : Array<UInt>;
+    private var outerBorderColor : Array<UInt>;
+    private var innerBorderColor : Array<UInt>;
 
 
     /** difference between the light and darkside of the button gradient. [0, 1]*/
@@ -110,7 +110,7 @@ class Aswing extends Skin {
         this._adjustArrays();
         var angle = rotation;
         var shadownAngle = -bevelAngle;
-        var _colors:Array<Int> = colors.copy();
+        var _colors:Array<UInt> = colors.copy();
 
         if (Std.is(w, Button))
         {

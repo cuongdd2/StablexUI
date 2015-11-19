@@ -13,7 +13,7 @@ class Rect extends Skin{
     //border width
     public var border : Float = 0;
     //border color
-    public var borderColor : Int = 0x000000;
+    public var borderColor : UInt = 0x000000;
     //border alpha
     public var borderAlpha : Float = 1;
     //define corner radius. Format: [elipseWidth, elipseHeight] or [radius], e.g. [10, 20] or [20]

@@ -13,7 +13,7 @@ class Gradient extends Rect{
     //gradient type (linear or radial)
     public var type : String = 'linear';
     //colors (defaults to [0x000000, 0xFFFFFF])
-    public var colors : Array<Int>;
+    public var colors : Array<UInt>;
     //colors alpha. Defaults to non-transparent colors
     public var alphas : Array<Float>;
     //description. Defaults to equal ratios for all colors
@@ -66,7 +66,7 @@ class Gradient extends Rect{
 
             this._adjustArrays();
 
-            w.graphics.beginGradientFill((this.type == 'linear' ? GradientType.LINEAR : GradientType.RADIAL), #if flash cast #end this.colors, this.alphas, this.ratios, mx);
+            w.graphics.beginGradientFill((this.type == 'linear' ? GradientType.LINEAR : GradientType.RADIAL), this.colors, this.alphas, this.ratios, mx);
 
             super.draw(w);
 
