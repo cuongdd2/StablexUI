@@ -23,7 +23,7 @@ with this:
 </pre>
 
 Now you can use <type>ru.stablex.ui.RTXml</type>.buildFn() just like <type>ru.stablex.ui.UIBuilder</type>.buildFn()
-(<a href="https://github.com/RealyUniqueName/StablexUI/tree/xml-runtime/samples/runTimeXml" target="_blank">see example code on github</a>)
+(<a href="https://github.com/RealyUniqueName/StablexUI/tree/master/samples/runTimeXml" target="_blank">see example code on github</a>)
 
 You can use all <a href="#manual/04_Advanced_XML.html">advanced xml features</a> except meta tags.
 Hscript limitations can be found <a href="https://code.google.com/p/hscript/#Example" target="_blank">here</a> at bottom of page.
